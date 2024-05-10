@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,13 +13,13 @@
  * Do not edit the class manually.
  */
 
-import {exists} from '../runtime';
-import type {PlatformFee} from './PlatformFee';
-import {PlatformFeeFromJSON, PlatformFeeToJSON,} from './PlatformFee';
-import type {RoutePlanStep} from './RoutePlanStep';
-import {RoutePlanStepFromJSON, RoutePlanStepToJSON,} from './RoutePlanStep';
-import type {SwapMode} from './SwapMode';
-import {SwapModeFromJSON, SwapModeToJSON,} from './SwapMode';
+import {exists} from '../runtime.ts';
+import type {PlatformFee} from './PlatformFee.ts';
+import {PlatformFeeFromJSON, PlatformFeeToJSON,} from './PlatformFee.ts';
+import type {RoutePlanStep} from './RoutePlanStep.ts';
+import {RoutePlanStepFromJSON, RoutePlanStepToJSON,} from './RoutePlanStep.ts';
+import type {SwapMode} from './SwapMode.ts';
+import {SwapModeFromJSON, SwapModeToJSON,} from './SwapMode.ts';
 
 /**
  *

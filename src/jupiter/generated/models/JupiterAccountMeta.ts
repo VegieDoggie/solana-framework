@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -15,25 +16,25 @@
 /**
  *
  * @export
- * @interface AccountMeta
+ * @interface JupiterAccountMeta
  */
-export interface AccountMeta {
+export interface JupiterAccountMeta {
     /**
      *
      * @type {string}
-     * @memberof AccountMeta
+     * @memberof JupiterAccountMeta
      */
     pubkey: string;
     /**
      *
      * @type {boolean}
-     * @memberof AccountMeta
+     * @memberof JupiterAccountMeta
      */
     isSigner: boolean;
     /**
      *
      * @type {boolean}
-     * @memberof AccountMeta
+     * @memberof JupiterAccountMeta
      */
     isWritable: boolean;
 }
@@ -50,11 +51,11 @@ export function instanceOfAccountMeta(value: object): boolean {
     return isInstance;
 }
 
-export function AccountMetaFromJSON(json: any): AccountMeta {
+export function AccountMetaFromJSON(json: any): JupiterAccountMeta {
     return AccountMetaFromJSONTyped(json, false);
 }
 
-export function AccountMetaFromJSONTyped(json: any, _ignoreDiscriminator: boolean): AccountMeta {
+export function AccountMetaFromJSONTyped(json: any, _ignoreDiscriminator: boolean): JupiterAccountMeta {
     if ((json === undefined) || (json === null)) {
         return json;
     }
@@ -66,7 +67,7 @@ export function AccountMetaFromJSONTyped(json: any, _ignoreDiscriminator: boolea
     };
 }
 
-export function AccountMetaToJSON(value?: AccountMeta | null): any {
+export function AccountMetaToJSON(value?: JupiterAccountMeta | null): any {
     if (value === undefined) {
         return undefined;
     }

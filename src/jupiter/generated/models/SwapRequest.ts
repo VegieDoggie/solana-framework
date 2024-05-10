@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,19 +13,19 @@
  * Do not edit the class manually.
  */
 
-import {exists} from '../runtime';
-import type {QuoteResponse} from './QuoteResponse';
-import {QuoteResponseFromJSON, QuoteResponseToJSON,} from './QuoteResponse';
-import type {SwapRequestComputeUnitPriceMicroLamports} from './SwapRequestComputeUnitPriceMicroLamports';
+import {exists} from '../runtime.ts';
+import type {QuoteResponse} from './QuoteResponse.ts';
+import {QuoteResponseFromJSON, QuoteResponseToJSON,} from './QuoteResponse.ts';
+import type {SwapRequestComputeUnitPriceMicroLamports} from './SwapRequestComputeUnitPriceMicroLamports.ts';
 import {
     SwapRequestComputeUnitPriceMicroLamportsFromJSON,
     SwapRequestComputeUnitPriceMicroLamportsToJSON,
-} from './SwapRequestComputeUnitPriceMicroLamports';
-import type {SwapRequestPrioritizationFeeLamports} from './SwapRequestPrioritizationFeeLamports';
+} from './SwapRequestComputeUnitPriceMicroLamports.ts';
+import type {SwapRequestPrioritizationFeeLamports} from './SwapRequestPrioritizationFeeLamports.ts';
 import {
     SwapRequestPrioritizationFeeLamportsFromJSON,
     SwapRequestPrioritizationFeeLamportsToJSON,
-} from './SwapRequestPrioritizationFeeLamports';
+} from './SwapRequestPrioritizationFeeLamports.ts';
 
 /**
  *

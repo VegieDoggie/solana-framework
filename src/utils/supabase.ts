@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import {SupabaseClient} from "npm:@supabase/supabase-js";
 
 export const response = {

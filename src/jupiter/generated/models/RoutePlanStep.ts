@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,8 +13,8 @@
  * Do not edit the class manually.
  */
 
-import type {SwapInfo} from './SwapInfo';
-import {SwapInfoFromJSON, SwapInfoToJSON,} from './SwapInfo';
+import type {SwapInfo} from './SwapInfo.ts';
+import {SwapInfoFromJSON, SwapInfoToJSON,} from './SwapInfo.ts';
 
 /**
  *

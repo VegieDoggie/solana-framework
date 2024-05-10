@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,7 +13,7 @@
  * Do not edit the class manually.
  */
 
-import {exists} from '../runtime';
+import {exists} from '../runtime.ts';
 
 /**
  *

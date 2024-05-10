@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,8 +13,8 @@
  * Do not edit the class manually.
  */
 
-import type {AccountMeta} from './AccountMeta';
-import {AccountMetaFromJSON, AccountMetaToJSON,} from './AccountMeta';
+import type {JupiterAccountMeta} from './JupiterAccountMeta.ts';
+import {AccountMetaFromJSON, AccountMetaToJSON,} from './JupiterAccountMeta.ts';
 
 /**
  *
@@ -29,10 +30,10 @@ export interface Instruction {
     programId: string;
     /**
      *
-     * @type {Array<AccountMeta>}
+     * @type {Array<JupiterAccountMeta>}
      * @memberof Instruction
      */
-    accounts: Array<AccountMeta>;
+    accounts: Array<JupiterAccountMeta>;
     /**
      *
      * @type {string}

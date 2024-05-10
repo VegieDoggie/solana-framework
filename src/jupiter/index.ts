@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import {TransactionInstruction, PublicKey, AddressLookupTableAccount, Connection} from "../adapter/web3.ts";
 import {sleep} from "../utils/sleep.ts";
 import {DefaultApi, Instruction, type SwapInstructionsResponse} from "./generated/index.ts";

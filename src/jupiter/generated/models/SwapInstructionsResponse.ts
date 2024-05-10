@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -12,9 +13,9 @@
  * Do not edit the class manually.
  */
 
-import {exists} from '../runtime';
-import type {Instruction} from './Instruction';
-import {InstructionFromJSON, InstructionToJSON,} from './Instruction';
+import {exists} from '../runtime.ts';
+import type {Instruction} from './Instruction.ts';
+import {InstructionFromJSON, InstructionToJSON,} from './Instruction.ts';
 
 /**
  *

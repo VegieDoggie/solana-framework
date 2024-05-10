@@ -1,6 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
-export * from './AccountMeta.ts';
+export * from './JupiterAccountMeta.ts';
 export * from './IndexedRouteMapResponse.ts';
 export * from './Instruction.ts';
 export * from './PlatformFee.ts';

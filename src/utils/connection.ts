@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import {
     TOKEN_PROGRAM_ID,
     ASSOCIATED_TOKEN_PROGRAM_ID,

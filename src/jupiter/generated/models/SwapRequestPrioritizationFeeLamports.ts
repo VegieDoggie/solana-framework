@@ -1,4 +1,5 @@
-/* tslint:disable */
+// deno-lint-ignore-file
+// /* tslint:disable */
 /* eslint-disable */
 /**
  * Jupiter API v6

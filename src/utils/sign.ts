@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import {Keypair} from "../adapter/web3.ts";
 import {base58} from "../adapter/bs58.ts";
 import {nacl} from "../adapter/tweetnacl.ts";

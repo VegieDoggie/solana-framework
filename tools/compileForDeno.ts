@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import {ensureDir, walk} from "https://deno.land/std@0.177.0/fs/mod.ts";
 import {basename, dirname, join, relative,} from "https://deno.land/std@0.177.0/path/posix.ts";
 import ts from "npm:typescript";
