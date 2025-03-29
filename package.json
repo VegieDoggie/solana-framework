@@ -1,0 +1,44 @@
+{
+  "name": "solana-framework",
+  "version": "0.1.10",
+  "description": "solana-framework is solana uni-tools for typescript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Xizi",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "postpublish": "tsc --build --clean",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@metaplex-foundation/beet-solana": "^0.4.1",
+    "@metaplex-foundation/beet": "^0.7.2",
+    "@solana/spl-token": "^0.4.3",
+    "@solana/web3.js": "^1.91.8",
+    "bs58": "^5.0.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VegieDoggie/solana-framework.git"
+  },
+  "keywords": [
+    "solana",
+    "instruction",
+    "typescript",
+    "web3.js",
+    "keyPair",
+    "helper",
+    "irys",
+    "NFT",
+    "utils"
+  ],
+  "bugs": {
+    "url": "https://https://github.com/VegieDoggie/solana-framework/issues"
+  },
+  "homepage": "https://https://github.com/VegieDoggie/solana-framework#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
